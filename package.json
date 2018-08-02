@@ -1,0 +1,34 @@
+{
+  "name": "codingame-ts-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel watch index.ts --target node",
+    "build": "parcel build index.ts --target node",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prettier": "prettier --list-different --write \"**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.4.2",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.0",
+    "ts-jest": "^23.0.1",
+    "typescript": "^3.0.1"
+  },
+  "prettierConfig": {
+    "singleQuote": true
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  }
+}
