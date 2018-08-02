@@ -1,6 +1,6 @@
 # :muscle: codingame-ts-starter
 
-> Full featured starter template for CodinGame challenges with a Typescript/Jest setup
+> Typescript starter template for CodinGame challenges
 
 **Features**
 - [TypeScript](https://www.typescriptlang.org)
