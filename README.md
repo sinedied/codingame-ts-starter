@@ -7,7 +7,7 @@
 - Module bundling and minification with [Parcel](https://parceljs.org)
 - Testing with [Jest](https://jestjs.io)
 - Code formatting with [Prettier](https://prettier.io)
-- [VSCode](https://code.visualstudio.com) integrations
+- [VSCode](https://code.visualstudio.com/?WT.mc_id=javascript-0000-yolasors) integrations
 
 ## Installation
 
